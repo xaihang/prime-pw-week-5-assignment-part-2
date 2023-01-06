@@ -4,7 +4,6 @@
   and it should use the `body` HTML tag name. */
 
 /* --------------------- body -------------------- */
-
 body {
     /* Look up the CSS `background-image` property to learn how to use the provided `record.png` 
     as the background image on your page with a relative path. */    
@@ -13,15 +12,13 @@ body {
     /* Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image. */
     background-repeat: repeat;
 
-    background-color: #9BD770 ;
+    /* Look up CSS `margin` and `padding`. 
+        - Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
+        - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) 
+        ---NOTE: 'em' Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    margin: 0;
+    padding: 1em;
    }
-
-
-
-
-/* Look up CSS `margin` and `padding`. 
-  - Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
-  - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) */
 
 /* --------------------- header--------------------- */
 .header {
@@ -38,8 +35,8 @@ body {
 .main {
     /* Give the `main` a light grey background color. */
     background-color: lightgrey;
+    margin: 0;
+    padding: 1.2em;
 }
-
-
 
 
