@@ -5,7 +5,7 @@
 
 
 /* --------------------- header--------------------- */
-header {
+.header {
     /* Give the `header` a dark background color and choose a light  color for the text. */
     background-color: #375F1B; 
     color: #EBF7E3;
@@ -16,8 +16,10 @@ header {
 
 
 /* --------------------- main -------------------- */
-/* Give the `main` a light grey background color. */
-
+.main {
+    /* Give the `main` a light grey background color. */
+    background-color: lightgrey;
+}
 
 /* --------------------- body -------------------- */
 /* Look up the CSS `background-image` property to learn how to use the provided `record.png` 
