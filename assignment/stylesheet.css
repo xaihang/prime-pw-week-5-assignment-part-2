@@ -4,9 +4,12 @@
   and it should use the `body` HTML tag name. */
 
   /* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
+/* --------------------- universal -------------------- */
+* {
+    font-family: poppins;
+}
 
 /* --------------------- body -------------------- */
 body {
@@ -17,6 +20,7 @@ body {
     /* Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image. */
     background-repeat: repeat;
 
+
     /* Look up CSS `margin` and `padding`. 
         - Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
         - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) 
@@ -24,65 +28,55 @@ body {
     margin: 0;
     padding: 1em;
 
-    font-family: Helvetica, Arial, sans-serif;
-
    }
 
 /* --------------------- header--------------------- */
-.header {
+header {
     /* Give the `header` a dark background color and choose a light  color for the text. */
     background-color: #091034; 
-    color: #DDE3FD;
+    color: white;
 
     /* Center the text in the `header`. */
     text-align: center;
 
+    height: 20rem;
+    opacity: .9;
+    padding-top: 6em;
+
 }
 
-h1 {
-    font-size: 1rem;
-}
 
 /* --------------------- main -------------------- */
 .main {
     /* Give the `main` a light grey background color. */
     background-color: lightgrey;
-    margin-top: -.5em;
-
-}
-
-/* --------------------- navigation -------------------- */
-nav {
-    margin-top: -1em;
-
 }
 
   /* --------------------- cards -------------------- */
-  .card {
+
+.card {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
     margin-top:10px;
     margin-bottom:10px;
-    background-color:#FFF;
-    display: flex;
-    flex-wrap: wrap;
-
-  }
+    background-color: black;
+}
   
-  .card:hover {
+.card:hover {
     box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  }
-  .card > .card-inner {
+}
+.card > .card-inner {
     padding:10px;
-  }
-  .card .header h2, h3 {
+}
+.card .header h2, h3 {
     margin-bottom: 0px;
     margin-top:0px;
-  }
-  .card .header {
-    margin-bottom:5px;
-  }
-  .card img{
-    width:100%;
-  }
+}
+.card .header {
+margin-bottom:5px;
+}
+.card img{
+width:100%;
+}
+

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Week 5 Assignment</title>
+    <title>Record Shoppe</title>
         <!-- Create a `stylesheet.css` file and source it into the HTML file. -->
         <link rel="stylesheet" href="stylesheet.css">
             <!-- link bootstrap -->
@@ -11,6 +11,28 @@
   </head>
 
   <body>
+
+<!-------------------- navigation ----------------------->
+<div id="navbar-container">
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">XRS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.udiscovermusic.com/artists-a-z/" target="_blank">Artists A-Z</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://en.wikipedia.org/wiki/List_of_music_genres_and_styles" target="_blank">List of Genres</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
 
 
 <!-------------------- header ----------------------->
@@ -28,123 +50,78 @@
   <!-- Create an unordered list with any questions you have -->
 </main>
 
-<!-------------------- navigation ----------------------->
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">XRS</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.udiscovermusic.com/artists-a-z/" target="_blank">Artists A-Z</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://en.wikipedia.org/wiki/List_of_music_genres_and_styles" target="_blank">List of Genres</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
 <!-------------------- cards ----------------------->
-<div class="col-sm-4">
-  <div class="card">
-    <div class="image">
-      <img src="img1.jpg" />
-    </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2>Title</h2>
-        <h3>Sub-Head</h2>
-    </div>
-    <div class="content">
-      <p>Content area</p>
-    </div>
-      </div>
-  </div>
-</div>
-<div class="col-sm-4">
-  <div class="card">
-    <div class="image">
-      <img src="img2.jpg" />
-    </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2>Title</h2>
-        <h3>Sub-Head</h2>
-    </div>
-    <div class="content">
-      <p>Content area</p>
-    </div>
-      </div>
-  </div>
-</div>
-<div class="col-sm-4">
-  <div class="card">
-    <div class="image">
-      <img src="img3.jpg" />
-    </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2>Title</h2>
-        <h3>Sub-Head</h2>
-    </div>
-    <div class="content">
-      <p>Content area</p>
-    </div>
-      </div>
-  </div>
-</div><div class="col-sm-4">
-  <div class="card">
-    <div class="image">
-      <img src="img4.jpg" />
-    </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2>Title</h2>
-        <h3>Sub-Head</h2>
-    </div>
-    <div class="content">
-      <p>Content area</p>
-    </div>
-      </div>
-  </div>
-</div><div class="col-sm-4">
-  <div class="card">
-    <div class="image">
-      <img src="img5.jpg" />
-    </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2>Title</h2>
-        <h3>Sub-Head</h2>
-    </div>
-    <div class="content">
-      <p>Content area</p>
-    </div>
-      </div>
-  </div>
-</div>
-<div class="col-sm-4">
-  <div class="card">
-    <div class="image">
-      <img src="img6.jpg" />
-    </div>
-    <div class="card-inner">
-      <div class="header">
-        <h2>Title</h2>
-        <h3>Sub-Head</h2>
-    </div>
-    <div class="content">
-      <p>Content area</p>
-    </div>
-      </div>
-  </div>
-</div>
 
+<div class="container">
+  <div class="row gy-4">
+      <div class="col-sm">
+          <div class="card h-100">
+              <img src="img1.jpg" class="card-img-top" alt="headphones">
+              <div class="card-body">
+                  <h5 class="card-title fw-bold">Headphones</h5>
+                  <p class="card-text">"Headphones are a pair of small loudspeaker drivers worn 
+                    on or around the head over a user's ears. 
+                    They are electroacoustic transducers, which convert an electrical 
+                    signal to a corresponding sound"...
+                    <a href="https://en.wikipedia.org/wiki/Headphones" target="_blank">read more</a>
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm">
+        <div class="card h-100">
+            <img src="img2.jpg" class="card-img-top" alt="Record Players">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Record Players Today</h5>
+                <p class="card-text">"Today, most indie rock, hip hop, and electronic music records are released on vinyl, 
+                  which makes record players quite popular among young, hip listeners."...
+                  <a href="https://victrola.com/blogs/articles/record-players-history" target="_blank">read more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+      <div class="card h-100">
+          <img src="img3.jpg" class="card-img-top" alt="Phonograph record">
+          <div class="card-body">
+              <h5 class="card-title fw-bold">Phonograph record</h5>
+              <p class="card-text">"A phonograph record, a long-playing record, 
+                a vinyl record, or simply a record, is an analog sound storage 
+                medium in the form of a flat disc with an inscribed, modulated spiral groove"...    
+                <a href="https://en.wikipedia.org/wiki/Phonograph_record" target="_blank">read more</a>
+              </p>
+          </div>
+      </div>
+  </div>
+      <div class="col-sm">
+          <div class="card h-100">
+              <img src="img4.jpg" class="card-img-top" alt="Cassette tape">
+              <div class="card-body">
+                  <h5 class="card-title fw-bold">Cassette tape</h5>
+                  <p class="card-text">"The tape cassette, cassette tape, audio cassette, 
+                    or simply tape or cassette, is an analog magnetic tape recording format 
+                    for audio recording and playback"...
+                    <a href="https://en.wikipedia.org/wiki/Cassette_tape" target="_blank" >read more</a>
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm">
+          <div class="card h-100">
+              <img src="img7.jpg" class="card-img-top" alt="Compact disc">
+              <div class="card-body">
+                  <h5 class="card-title fw-bold">Compact disc</h5>
+                  <p class="card-text">"The compact disc (CD) is a digital optical disc data storage format. 
+                    The format was later adapted (as CD-ROM) for general-purpose data storage"...
+                    <a href="https://en.wikipedia.org/wiki/Compact_disc" target="_blank" >read more</a>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
   </body>
 </html>
