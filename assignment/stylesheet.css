@@ -23,10 +23,9 @@ body {
 
     /* Look up CSS `margin` and `padding`. 
         - Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
-        - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) 
+   
         ---NOTE: 'em' Relative to the font-size of the element (2em means 2 times the size of the current font)*/
     margin: 0;
-    padding: 1em;
 
    }
 
@@ -49,6 +48,9 @@ header {
 .main {
     /* Give the `main` a light grey background color. */
     background-color: lightgrey;
+
+    /* - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.)  */
+    padding: 1em;
 }
 
   /* --------------------- cards -------------------- */
